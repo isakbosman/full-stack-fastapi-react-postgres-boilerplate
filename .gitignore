@@ -1,3 +1,5 @@
 .vscode
+testing-project
 .mypy_cache
-docker-stack.yml
+poetry.lock
+dev-link/
