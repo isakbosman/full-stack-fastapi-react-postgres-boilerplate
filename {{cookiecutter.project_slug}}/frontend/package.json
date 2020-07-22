@@ -9,8 +9,16 @@
   },
   "bugs": "https://github.com/isakbosman/issues",
   "license": "MIT",
-  "keywords": ["FullStack", "React-Router", "Redux", "Redux-Saga", "Webpack", "ES6"],
+  "keywords": [
+    "FullStack",
+    "React-Router",
+    "Redux",
+    "Redux-Saga",
+    "Webpack",
+    "ES6"
+  ],
   "dependencies": {
+    "antd": "^4.4.3",
     "classlist-polyfill": "^1.2.0",
     "events-polyfill": "^2.1.2",
     "history": "^5.0.0",
@@ -193,10 +201,20 @@
     "jsxBracketSameLine": false
   },
   "lint-staged": {
-    "*.js?(x)": ["eslint --fix", "git add", "jest --findRelatedTests"],
-    "*.(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|graphql|mdx)": ["prettier --write", "git add"]
+    "*.js?(x)": [
+      "eslint --fix",
+      "git add",
+      "jest --findRelatedTests"
+    ],
+    "*.(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|graphql|mdx)": [
+      "prettier --write",
+      "git add"
+    ]
   },
-  "browserslist": ["> 0.2%", "not dead"],
+  "browserslist": [
+    "> 0.2%",
+    "not dead"
+  ],
   "husky": {
     "hooks": {
       "post-merge": "repo-tools install-packages",
