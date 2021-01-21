@@ -22,7 +22,7 @@
     "classlist-polyfill": "^1.2.0",
     "events-polyfill": "^2.1.2",
     "history": "^5.0.0",
-    "immer": "^7.0.5",
+    "immer": "^8.0.1",
     "mobile-detect": "^1.4.4",
     "modernizr": "^3.11.3",
     "nanoid": "^3.1.10",
